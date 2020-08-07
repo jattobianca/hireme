@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
  <head>
-	 <title>design page</title>
+	 <title>contact page</title>
 	 <meta charset="UTF-8">
 	 <meta name="viewport" content="width=device-width, initial-scale=1">
 	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -35,9 +35,18 @@
 		a {
 			text-decoration: none;
 		}
-  
+    input{
+      border-width:2px !important;
+      border-color:white !important;
+    }
+    textarea{
+     border-width:2px !important;
+     border-color:white !important; 
+    }
+    
 	 </style>
  </head>
+
 
  <body>
 	 <header>
@@ -66,10 +75,12 @@
      <div class="form-group pt-4">
        <input type="text" placeholder="Input your subject" class="form-control bg-transparent text-white">
      </div>
-     <div>
+     <div class="form-group pt-4">
        <textarea class="form-control bg-transparent"></textarea>
      </div>
-     <button type="button" class="btn bg-transparent text-white">
+     <div class="form-group pt-4">
+       <button type="button" class="btn bg-transparent text-white">SUBMIT</button>
+     </div>
    </form>
  </body>
 </html>
